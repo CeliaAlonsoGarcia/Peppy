@@ -44,13 +44,15 @@ nav .links-items:nth-child(1)::after {
 }
 .text {
   text-indent: 2rem;
-  margin: 1rem 1rem 1rem 1rem;
   line-height: 2rem;
-  padding: 1rem 2rem 1rem;
+
   font-size: 23px;
   background-color: #ffcc0000;
   border-radius: 1rem;
+  margin: 1rem 3rem 1rem 3rem;
+  padding: 0rem;
 }
+
 .greeting {
   margin: 1rem 1rem 1rem 1rem;
   line-height: 2rem;
@@ -81,14 +83,5 @@ nav .links-items:nth-child(1)::after {
 
     padding: 1rem;
     width: 8rem;
-  }
-
-  .text {
-    text-indent: 1rem;
-    margin: 1rem 3rem 1rem 3rem;
-    line-height: 1.5rem;
-    padding: 0rem;
-    font-size: 15px;
-    border-radius: 1rem;
   }
 }
