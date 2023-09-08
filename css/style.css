@@ -33,7 +33,7 @@ nav {
   padding: 0rem 0rem;
   padding-bottom: -1rem;
   margin-top: 0.5rem;
-  color: #00acff;
+  color: #3f2a56;
 }
 nav .links {
   display: flex;
@@ -47,7 +47,7 @@ nav .links {
 }
 
 nav .links-items:hover {
-  background-color: rgb(255 211 52);
+  background-color: rgb(255, 205, 0);
   border-radius: 1rem;
   cursor: pointer;
 }
@@ -71,7 +71,7 @@ nav .links-items:hover {
   right: 0;
   height: 60vh;
   width: 70vw;
-  background-color: #00acff;
+  background-color: #3f2a56;
   font-weight: 800;
   font-size: x-large;
 }
@@ -92,7 +92,7 @@ nav .links-items:hover {
     margin: 1rem 2rem 0;
   }
   nav .links-items:hover {
-    background-color: rgb(255 211 52);
+    background-color: rgb(255, 205, 0);
     border-radius: 1rem;
     cursor: pointer;
   }
