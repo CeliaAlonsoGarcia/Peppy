@@ -36,7 +36,7 @@ nav .links-items:nth-child(1)::after {
   width: 28rem;
 } */
 
-.box {
+.box div {
   background-color: white;
   border-radius: 1rem;
   padding: 1rem;
