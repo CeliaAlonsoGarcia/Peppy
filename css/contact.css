@@ -27,25 +27,46 @@ nav .links-items:nth-child(4)::after {
 .photo {
   /* width: 100%;
   height: 100%; */
-  object-fit: cover;
-  border: rgba(60, 53, 53, 0.715) solid 1rem;
+  border: #3f2a56 solid 1rem;
   border-radius: 2rem;
+  overflow: hidden; /* Clip the image to the rounded shape */
 }
 
-img {
+.photo img {
   width: 400px;
   height: 400px;
   object-fit: cover;
+  margin: 0; /* Reset margin to remove any default spacing */
+  padding: 0;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* border: #3f2a56 solid 1rem; */
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
-address {
+.wrap {
+  display: flex;
+  padding-left: 10rem;
+}
+
+.copy h2 {
+  font-size: 65px;
+  color: #3f2a56;
+  padding: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.copy p {
   font-size: 30px;
-  color: rgba(60, 53, 53, 0.715);
+  color: #3f2a56;
   text-align: center;
   padding: 1rem;
 }

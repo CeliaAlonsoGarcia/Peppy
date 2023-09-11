@@ -11,6 +11,7 @@ body {
 
 main {
   padding: 80px;
+  padding-top: 0;
 }
 
 /* footer {
@@ -34,8 +35,8 @@ nav {
   /* top: 0;  top: 0, so that the nav bar stays on the top */
   background-color: #3f2a56;
   /* border-radius: 0.5rem; */
-  padding: 0rem 0rem;
-  padding-bottom: -5rem;
+  /* padding: 0rem 0rem; */
+  /* padding-bottom: -10rem; */
   color: #3f2a56;
 }
 nav .links {
