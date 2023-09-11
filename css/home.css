@@ -36,32 +36,30 @@ main {
   width: 28rem;
 } */
 
-.box div {
+.box {
   background-color: white;
-
   border-radius: 1rem;
   padding: 1rem;
-  /* border: 1rem solid #3f2a56; */
+  border: 1rem solid #3f2a56;
 }
+
 .text {
   text-indent: 2rem;
   line-height: 2rem;
 
-  font-size: 23px;
+  font-size: 25px;
   background-color: #ffcc0000;
   border-radius: 1rem;
-  margin: 1rem 3rem 1rem 3rem;
+  margin: 2rem 3rem 2rem 3rem;
   padding: 0rem;
-  color: #3f2a56;
 }
 
 .greeting {
-  margin: 1rem 1rem 1rem 1rem;
-  line-height: 2rem;
+  margin: 1rem 3rem 1rem 3rem;
+  line-height: 3rem;
   padding: 1rem 1rem -1rem;
-  font-size: 23px;
+  font-size: 25px;
   border-radius: 1rem;
-  color: #3f2a56;
 }
 
 @media (max-width: 600px) {

@@ -14,12 +14,14 @@ nav .links-items:nth-child(4)::after {
 }
 
 img {
-  width: 70rem;
-  height: 30rem;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: #3f2a56 solid 1rem;
+  border-radius: 1rem;
 }
 
 address {
